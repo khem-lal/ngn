@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+
+<struts-config>
+    <form-beans>
+    	<form-bean name="UserForm" type="bt.gov.g2c.framework.form.UserForm"/>
+    </form-beans>
+    
+
+    <action-mappings>
+    	<!-- forward to the user list action -->
+     	<action path="/UserAction" name="UserForm" type="bt.gov.g2c.framework.action.UserAction" parameter="method">
+			<forward name="loginSuccess" path="/jsp/userHome.jsp"/>
+			<forward name="loginFailure" path="/jsp/login.jsp"/>
+			<forward name="loadUserAddForm" path="/jsp/addUser.jsp"/>
+			<forward name="userList" path="/jsp/userList.jsp"/>
+			<forward name="userEdit" path="/jsp/userList.jsp"/>
+			<forward name="roleList" path="/jsp/roles.jsp"/>
+			<forward name="privilegeList" path="/jsp/privileges.jsp"/>
+			
+	  	</action>
+    </action-mappings>
+    
+    <message-resources parameter="bt.gov.g2c.framework.property.Labels"></message-resources>
+
+  
+</struts-config>

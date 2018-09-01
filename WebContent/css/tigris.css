@@ -1,0 +1,1786 @@
+@import url( onlinehelp.css );
+BODY {
+	PADDING-BOTTOM: 1em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; BACKGROUND: #fff; COLOR: #000; PADDING-TOP: 1em
+}
+BODY.composite {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+P {
+	MARGIN-TOP: 0.67em; MARGIN-BOTTOM: 0.67em
+}
+UL {
+	MARGIN-TOP: 0.67em; MARGIN-BOTTOM: 0.67em
+}
+OL {
+	MARGIN-TOP: 0.67em; MARGIN-BOTTOM: 0.67em
+}
+DL {
+	MARGIN-TOP: 0.67em; MARGIN-BOTTOM: 0.67em
+}
+TABLE.bars {
+	MARGIN-TOP: 0.67em; MARGIN-BOTTOM: 0.67em
+}
+#bodycol {
+	PADDING-BOTTOM: 12px; PADDING-LEFT: 12px; WIDTH: auto; PADDING-RIGHT: 12px; voice-family: inherit
+}
+HTML > BODY #bodycol {
+	WIDTH: auto
+}
+.h2 P {
+	MARGIN-LEFT: 7px; MARGIN-RIGHT: 7px
+}
+.h3 P {
+	MARGIN-LEFT: 7px; MARGIN-RIGHT: 7px
+}
+.h4 P {
+	MARGIN-LEFT: 7px; MARGIN-RIGHT: 7px
+}
+.h2 DT {
+	MARGIN-LEFT: 7px; MARGIN-RIGHT: 7px
+}
+.h3 DT {
+	MARGIN-LEFT: 7px; MARGIN-RIGHT: 7px
+}
+.h4 DT {
+	MARGIN-LEFT: 7px; MARGIN-RIGHT: 7px
+}
+#login {
+	COLOR: #f0f0f0
+}
+IMG {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+#poweredby {
+	BORDER-BOTTOM: medium none; MARGIN: 0px 58px 0px 0px; WIDTH: 102px; DISPLAY: block; BACKGROUND: url(../images/poweredby.gif) no-repeat; FLOAT: left; HEIGHT: 38px
+}
+#ee {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+#cn {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+DIV#collabnet {
+	PADDING-BOTTOM: 13px; PADDING-LEFT: 10px; BACKGROUND: url(../images/cnheader-background.gif) #234 repeat-x 50% top; COLOR: #fff; PADDING-TOP: 6px
+}
+.tabset {
+	BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #efefef; BORDER-RIGHT: #ccc 1px solid
+}
+.tabset .tabset {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid
+}
+.navgroup DD LI.header {
+	BACKGROUND-IMAGE: none
+}
+.navgroup {
+	BACKGROUND: #e2e6ea; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #bdbdcc 1px solid
+}
+.navgroup:hover {
+	BACKGROUND: #caedff
+}
+.navgroup DT {
+	BACKGROUND: #abd; COLOR: #333
+}
+.navgroup DD {
+	BORDER-BOTTOM: #bdbdcc 1px solid
+}
+#helptext {
+	BACKGROUND-COLOR: #fcfce0; MARGIN: 0px 0px 2px -2px
+}
+#helptext:hover {
+	BACKGROUND-COLOR: #ffffc0
+}
+#helptext DT {
+	BORDER-BOTTOM: #ccc 1px solid; BACKGROUND-COLOR: #cca; BORDER-RIGHT: 0px
+}
+#helptext DD {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-RIGHT: 0px
+}
+#communitycol {
+	WIDTH: 20%
+}
+.a TD {
+	BACKGROUND: #f9f9f9
+}
+.a {
+	BACKGROUND: #f9f9f9
+}
+#rightcol DIV.siteinfo .a {
+	BACKGROUND: #f9f9f9
+}
+.b TD {
+	BACKGROUND: #ededef
+}
+.b {
+	BACKGROUND: #ededef
+}
+#rightcol DIV.siteinfo .b {
+	BACKGROUND: #ededef
+}
+TABLE TD.c {
+	BACKGROUND: #bbb
+}
+.c {
+	BACKGROUND: #bbb
+}
+.d TD {
+	BACKGROUND: #fdfd99
+}
+.d {
+	BACKGROUND: #fdfd99
+}
+TH {
+	BACKGROUND-COLOR: #ddd; COLOR: black
+}
+.axial TH {
+	BACKGROUND-COLOR: #ddd; COLOR: black
+}
+.a:hover TD {
+	BACKGROUND-COLOR: #caedff
+}
+.a:hover {
+	BACKGROUND-COLOR: #caedff
+}
+#rightcol DIV.siteinfo .a:hover {
+	BACKGROUND-COLOR: #caedff
+}
+.b:hover TD {
+	BACKGROUND-COLOR: #caedff
+}
+.b:hover {
+	BACKGROUND-COLOR: #caedff
+}
+#rightcol DIV.siteinfo .b:hover {
+	BACKGROUND-COLOR: #caedff
+}
+.hilight {
+	BACKGROUND-COLOR: #caedff
+}
+.selectedrow {
+	BACKGROUND-COLOR: #dfd9cb
+}
+.preselectedrow {
+	BACKGROUND-COLOR: #efe9db
+}
+BODY .grid TD {
+	BORDER-LEFT: #ccc 1px solid; BACKGROUND-COLOR: transparent; BORDER-TOP: #ccc 1px solid
+}
+.legend TH {
+	BACKGROUND-COLOR: #fff
+}
+.bars TH {
+	BACKGROUND-COLOR: #fff
+}
+H1 EM {
+	COLOR: #555
+}
+.h3 H3 {
+	BACKGROUND-COLOR: #d4e4b4
+}
+.h4 H4 {
+	BACKGROUND-COLOR: #ccc
+}
+.h2 H2 {
+	BACKGROUND-COLOR: #ac8; COLOR: #000; BORDER-TOP: #669933 1px solid
+}
+H3 {
+	COLOR: #000
+}
+.heading-right {
+	MARGIN: 0px 5px; FLOAT: right
+}
+.heading-count {
+	FONT-WEIGHT: normal
+}
+#toptabs TH {
+	BACKGROUND-COLOR: #e0e4e8
+}
+#toptabs {
+	BORDER-BOTTOM: #e0e4e8 6px solid; BACKGROUND-COLOR: #234
+}
+#banner {
+	BACKGROUND-COLOR: #234
+}
+BODY {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+H1 {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+H2 {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+H3 {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+H4 {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+H5 {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+H6 {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+P {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+TD {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+TABLE TD {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+INPUT {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+SELECT {
+	FONT-FAMILY: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+CODE {
+	FONT-FAMILY: "Andale Mono", Courier, monospace
+}
+PRE {
+	FONT-FAMILY: "Andale Mono", Courier, monospace
+}
+.zwsp {
+	FONT-FAMILY: "Lucida Sans Unicode", "Arial Unicode MS", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif !important
+}
+.pws {
+	FONT-FAMILY: "Andale Mono", Courier, monospace; WORD-WRAP: break-word; WHITE-SPACE: pre-wrap; _white-space: pre
+}
+BODY {
+	FONT-SIZE: 0.7em; voice-family: inherit
+}
+PRE {
+	FONT-SIZE: 1.15em
+}
+CODE {
+	FONT-SIZE: 1.15em
+}
+#bodycol {
+	LINE-HEIGHT: 135%; FONT-SIZE: 100%
+}
+#bodycol TABLE TD {
+	LINE-HEIGHT: 135%; FONT-SIZE: 100%
+}
+#bodycol TABLE TH {
+	LINE-HEIGHT: 135%; FONT-SIZE: 100%
+}
+#bodycol TABLE TABLE TD {
+	FONT-SIZE: 100%
+}
+#bodycol TABLE TABLE TH {
+	FONT-SIZE: 100%
+}
+INPUT {
+	LINE-HEIGHT: 100%
+}
+H1 {
+	FONT-SIZE: large; FONT-WEIGHT: normal; voice-family: inherit
+}
+H2 {
+	FONT-SIZE: small; voice-family: inherit
+}
+H3 {
+	FONT-SIZE: small; voice-family: inherit
+}
+H4 {
+	FONT-SIZE: small; voice-family: inherit
+}
+H1 SMALL {
+	FONT-SIZE: small; voice-family: inherit
+}
+#rightcol H2 {
+	FONT-SIZE: small; voice-family: inherit
+}
+H2 {
+	FONT-SIZE: 1.25em
+}
+H3 {
+	FONT-SIZE: 1.1em
+}
+H4 {
+	FONT-SIZE: 1em
+}
+LI.selection UL {
+	FONT-WEIGHT: normal
+}
+SMALL {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.small {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+DIV#footer {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#login {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.tabs TH {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.tabs TD {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#toptabs TH {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#toptabs TD {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#bodycol .tabs TH {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#bodycol .tabs TD {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#navcol {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+INPUT {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+SELECT {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.pagination {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.functnbar {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.functnbar2 {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.functnbar3 {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.functnbar4 {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#breadcrumbs {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#topmodule {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+toolbreadcrumbs {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.courtesylinks {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.colbar {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.tasknav {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#sidebar {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.legend {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.bars {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#rightcol DIV.www {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#rightcol DIV.siteinfo {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.expandwidget {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.collapsewidget {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+#additemlink {
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif !important; FONT-SIZE: x-small; voice-family: inherit
+}
+.tabs TD {
+	FONT-WEIGHT: bold
+}
+.tabs TH {
+	FONT-WEIGHT: bold
+}
+#toptabs TH {
+	FONT-WEIGHT: bold
+}
+#toptabs TD {
+	FONT-WEIGHT: bold
+}
+.tasknav .selfref {
+	FONT-WEIGHT: bold
+}
+#login .username {
+	FONT-WEIGHT: bold
+}
+.selection {
+	FONT-WEIGHT: bold
+}
+.functnbar4 A {
+	FONT-WEIGHT: bold
+}
+FIELDSET LEGEND {
+	FONT-WEIGHT: bold
+}
+.cumulative TD {
+	FONT-WEIGHT: bold
+}
+.rollupactivity TD {
+	FONT-WEIGHT: bold
+}
+#today {
+	FONT-WEIGHT: bold
+}
+#selectedDate {
+	FONT-WEIGHT: bold
+}
+.tabs TD {
+	WHITE-SPACE: nowrap
+}
+.tabs TH {
+	WHITE-SPACE: nowrap
+}
+H1 EM {
+	FONT-STYLE: normal
+}
+TABLE {
+	FONT-SIZE: 1em
+}
+DEL {
+	TEXT-DECORATION: line-through
+}
+.tabs A {
+	TEXT-DECORATION: none
+}
+#toptabs A {
+	TEXT-DECORATION: none
+}
+#toptabs A:hover {
+	TEXT-DECORATION: underline
+}
+CAPTION {
+	FONT-SIZE: x-small
+}
+CAPTION EM {
+	FONT-WEIGHT: bold
+}
+.tip {
+	FONT-STYLE: italic; FONT-SIZE: smaller; FONT-WEIGHT: normal
+}
+A:visited {
+	COLOR: #87a; TEXT-DECORATION: none
+}
+#bodycol A:visited {
+	COLOR: #87a; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+#navcol A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+#navcol A:visited {
+	COLOR: #cf5800; TEXT-DECORATION: none
+}
+#bodycol A:link {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+#breadcrumbs A:visited {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+.tasknav A:link {
+	COLOR: #06c !important; TEXT-DECORATION: none
+}
+.tasknav A:visited {
+	COLOR: #06c !important; TEXT-DECORATION: none
+}
+.pagination A:visited {
+	COLOR: #06c !important; TEXT-DECORATION: none
+}
+A:hover {
+	TEXT-DECORATION: underline
+}
+A:active {
+	TEXT-DECORATION: underline
+}
+#navcol A:hover {
+	TEXT-DECORATION: underline
+}
+#navcol A:active {
+	TEXT-DECORATION: underline
+}
+#bodycol A:hover {
+	TEXT-DECORATION: underline
+}
+#bodycol A:active {
+	TEXT-DECORATION: underline
+}
+.tasknav A:hover {
+	TEXT-DECORATION: underline
+}
+.tasknav A:active {
+	TEXT-DECORATION: underline
+}
+A.selfref:link {
+	COLOR: #334 !important; TEXT-DECORATION: none
+}
+A.selfref:visited {
+	COLOR: #334 !important; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #000 !important
+}
+A:hover {
+	COLOR: #000 !important
+	text-decoration:none !important;
+}
+#navcol A:active {
+	COLOR: #000 !important
+	text-decoration:none !important;
+}
+#navcol A:hover {
+	COLOR: #000 !important
+	text-decoration:none !important;
+}
+.functnbar4 A {
+	COLOR: #fff !important
+}
+.functnbar4 A:link {
+	COLOR: #fff !important
+}
+.functnbar4 A:visited {
+	COLOR: #fff !important
+}
+#navcol A {
+	TEXT-DECORATION: none
+}
+#breadcrumbs A {
+	TEXT-DECORATION: none
+}
+.h2 H2 A:link {
+	COLOR: #000 !important; TEXT-DECORATION: underline
+}
+.h2 H2 A:visited {
+	COLOR: #000 !important; TEXT-DECORATION: underline
+}
+.h2 H2 .heading-right A:link {
+	COLOR: #564 !important; FONT-WEIGHT: normal
+}
+.h2 H2 .heading-right A:visited {
+	COLOR: #564 !important; FONT-WEIGHT: normal
+}
+.h3 H3 .heading-right A:link {
+	COLOR: #6a725a !important; FONT-WEIGHT: normal
+}
+.h3 H3 .heading-right A:visited {
+	COLOR: #6a725a !important; FONT-WEIGHT: normal
+}
+#toptabs TD A:link {
+	COLOR: #9cf !important
+}
+#toptabs TD A:visited {
+	COLOR: #9cf !important
+}
+.tabs TH {
+	COLOR: #555 !important
+}
+.tabs TH A:link {
+	COLOR: #555 !important
+}
+.tabs TH A:visited {
+	COLOR: #555 !important
+}
+#toptabs TH {
+	COLOR: #555 !important
+}
+#toptabs TH A:link {
+	COLOR: #555 !important
+}
+#toptabs TH A:visited {
+	COLOR: #555 !important
+}
+.tabs TD {
+	COLOR: #222 !important
+}
+.tabs TD A:link {
+	COLOR: #222 !important
+}
+.tabs TD A:visited {
+	COLOR: #222 !important
+}
+#login A {
+	COLOR: #9cf
+}
+#bodycol H1 {
+	MARGIN-TOP: 0.6em; MARGIN-BOTTOM: 0.5em
+}
+.h2 {
+	MARGIN-TOP: 1.47em
+}
+H2 {
+	PADDING-BOTTOM: 4px; MARGIN: 4px 1px; PADDING-LEFT: 3px; PADDING-RIGHT: 0px; PADDING-TOP: 2px
+}
+.h3 {
+	PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 6px
+}
+.h4 {
+	PADDING-BOTTOM: 0px; MARGIN: 0.5em 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 6px
+}
+.h3 H3 {
+	PADDING-BOTTOM: 2px; MARGIN: 4px 1px; PADDING-LEFT: 3px; PADDING-RIGHT: 0px; PADDING-TOP: 1px
+}
+.h4 H4 {
+	PADDING-BOTTOM: 2px; MARGIN: 4px 1px; PADDING-LEFT: 3px; PADDING-RIGHT: 0px; PADDING-TOP: 1px
+}
+H2 {
+	CLEAR: both
+}
+H3 {
+	CLEAR: both
+}
+H4 {
+	CLEAR: both
+}
+.h2 {
+	CLEAR: both
+}
+.h2 H2 + TABLE {
+	MARGIN-TOP: -4px
+}
+.h3 H3 + .h4 H4 {
+	MARGIN-TOP: -3px
+}
+.h3 H3 + TABLE {
+	MARGIN-TOP: -3px
+}
+.h2 H2 + .h3 {
+	MARGIN-TOP: -1em
+}
+* HTML H3 {
+	MARGIN-TOP: 0px
+}
+.functnbar {
+	BACKGROUND-IMAGE: url(../images/nw_maj_rond.gif); BACKGROUND-REPEAT: no-repeat
+}
+.functnbar {
+	BACKGROUND-COLOR: #aaa
+}
+.functnbar2 {
+	BACKGROUND-COLOR: #aaa
+}
+.functnbar2 {
+	BACKGROUND-IMAGE: url(../images/sw_maj_rond.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left bottom
+}
+.functnbar3 {
+	BACKGROUND-IMAGE: url(../images/sw_maj_rond.gif); BACKGROUND-COLOR: #ddd; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left bottom
+}
+.functnbar4 {
+	BACKGROUND-COLOR: #888
+}
+.tabset .functnbar {
+	BACKGROUND-IMAGE: url(../images/nw_maj_rond_ts.gif)
+}
+.tabset .functnbar2 {
+	BACKGROUND-IMAGE: url(../images/sw_maj_rond_ts.gif)
+}
+.tabset .functnbar3 {
+	BACKGROUND-IMAGE: url(../images/sw_maj_rond_ts.gif)
+}
+.functnbar {
+	PADDING-BOTTOM: 5px; MARGIN: 0.4em 2px 0.5em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; CLEAR: both; PADDING-TOP: 4px
+}
+.functnbar2 {
+	PADDING-BOTTOM: 5px; MARGIN: 0.4em 2px 0.5em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; CLEAR: both; PADDING-TOP: 4px
+}
+.functnbar3 {
+	PADDING-BOTTOM: 5px; MARGIN: 0.4em 2px 0.5em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; CLEAR: both; PADDING-TOP: 4px
+}
+.functnbar4 {
+	PADDING-BOTTOM: 5px; MARGIN: 0.4em 2px 0.5em; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; CLEAR: both; PADDING-TOP: 4px
+}
+.functnbar3 {
+	PADDING-BOTTOM: 3px; MARGIN-TOP: 0px; PADDING-LEFT: 1em; PADDING-RIGHT: 1em; PADDING-TOP: 2px
+}
+.functnbar4 {
+	MARGIN: 1px 2px 0px; WHITE-SPACE: nowrap
+}
+.functnbar5 {
+	PADDING-BOTTOM: 2px; MARGIN: 0.4em 2px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 1em; PADDING-TOP: 4px
+}
+.functnbar4 A {
+	PADDING-LEFT: 0.5em; PADDING-RIGHT: 0.5em
+}
+.pagination {
+	BACKGROUND: #ddd; COLOR: #222
+}
+.pagination {
+	WHITE-SPACE: nowrap; CLEAR: both
+}
+.pagination {
+	PADDING-BOTTOM: 4px; MARGIN: 0.4em 2px 1em; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+.gobutton {
+	MARGIN-RIGHT: 10px
+}
+.paginate_arrows {
+	MARGIN-BOTTOM: -3px
+}
+#login {
+	TEXT-ALIGN: right; MARGIN-TOP: 1px; PADDING-RIGHT: 10px; WHITE-SPACE: nowrap; FLOAT: right
+}
+.colbar {
+	BORDER-BOTTOM: #eee 1px solid; BORDER-LEFT: #aaa 1px solid; PADDING-BOTTOM: 2px; MARGIN: 1px 2px 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; BACKGROUND: #eee; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #eee 1px solid; PADDING-TOP: 2px
+}
+#breadcrumbs {
+	PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #e0e4e8; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 1px
+}
+.alt {
+	DISPLAY: none
+}
+.hide {
+	DISPLAY: none
+}
+.inline {
+	DISPLAY: inline
+}
+FIELDSET {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #ccc 1px solid; WIDTH: 100%; MARGIN-BOTTOM: 3px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #999 1px solid
+}
+.fieldset {
+	PADDING-BOTTOM: 0.67em; PADDING-LEFT: 0.67em; PADDING-RIGHT: 0.67em; PADDING-TOP: 0.67em
+}
+.filebrowse .leafnode {
+	BACKGROUND-IMAGE: url(../images/icon_folder_sml.gif); BACKGROUND-REPEAT: no-repeat
+}
+.filebrowse-alt .leafnode {
+	BACKGROUND-IMAGE: url(../images/icon_folder_sml.gif); BACKGROUND-REPEAT: no-repeat
+}
+.filebrowse .leaf {
+	BACKGROUND-IMAGE: url(../images/icon_doc_sml.gif); BACKGROUND-REPEAT: no-repeat
+}
+.filebrowse-alt .leaf {
+	BACKGROUND-IMAGE: url(../images/icon_doc_sml.gif); BACKGROUND-REPEAT: no-repeat
+}
+.sortup {
+	BACKGROUND: url(../images/icon_sortup.gif) no-repeat
+}
+.sortdown {
+	BACKGROUND: url(../images/icon_sortdown.gif) no-repeat
+}
+A.sortdown {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+A.sortup {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+A.expanded {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+A.collapsed {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+A.leaf {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+A.leafnode {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-TOP: medium none; BORDER-RIGHT: medium none
+}
+.collapsewidget {
+	BACKGROUND: #efefef
+}
+.expandwidget {
+	MARGIN-TOP: 2px; PADDING-LEFT: 3px; PADDING-TOP: 2px
+}
+.collapsewidget A {
+	PADDING-LEFT: 14px; BACKGROUND: url(../images/button-close.gif) no-repeat left top
+}
+.collapsewidget A:hover {
+	BACKGROUND: url(../images/button-close-over.gif) no-repeat left top
+}
+.expandwidget A {
+	PADDING-LEFT: 14px; BACKGROUND: url(../images/button-open.gif) no-repeat left top
+}
+.expandwidget A:hover {
+	BACKGROUND: url(../images/button-open-over.gif) no-repeat left top
+}
+.addwidget A {
+	PADDING-LEFT: 14px; BACKGROUND: url(../images/button-add.gif) no-repeat left top
+}
+.removewidget A {
+	PADDING-LEFT: 14px; BACKGROUND: url(../images/button-remove.gif) no-repeat left top
+}
+.docinfo {
+	BACKGROUND: url(../images/icon_doc_lrg.gif) no-repeat
+}
+.dirinfo {
+	BACKGROUND: url(../images/icon_folder_lrg.gif) no-repeat
+}
+.docinfo {
+	PADDING-BOTTOM: 0.67em; MARGIN: 0.67em 0px; MIN-HEIGHT: 32px; PADDING-LEFT: 42px; PADDING-RIGHT: 0px; PADDING-TOP: 0.33em
+}
+.dirinfo {
+	PADDING-BOTTOM: 0.67em; MARGIN: 0.67em 0px; MIN-HEIGHT: 32px; PADDING-LEFT: 42px; PADDING-RIGHT: 0px; PADDING-TOP: 0.33em
+}
+.helplink {
+	CURSOR: help
+}
+.feedicon {
+	BORDER-BOTTOM: medium none; WIDTH: 14px; DISPLAY: block; BACKGROUND: url(../images/feedicon14.png) no-repeat; FLOAT: right; HEIGHT: 14px; VERTICAL-ALIGN: top
+}
+#topmodule {
+	BORDER-BOTTOM: #bbb 1px solid; BACKGROUND-COLOR: #e1e1e1; MARGIN: -1px -2px 0px -4px; BORDER-TOP: #fff 1px solid
+}
+#toolbreadcrumbs {
+	BORDER-BOTTOM: #bbb 1px solid; BACKGROUND-COLOR: #e1e1e1; MARGIN: -1px -2px 0px -4px; BORDER-TOP: #fff 1px solid
+}
+#toolbreadcrumbs {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 16px; PADDING-RIGHT: 16px; PADDING-TOP: 1px
+}
+#toolbreadcrumbs A {
+	TEXT-DECORATION: none
+}
+#topmodule #projectname {
+	BORDER-RIGHT: #aaa 2px solid
+}
+#topmodule #issueid {
+	BORDER-RIGHT: #aaa 1px solid
+}
+#topmodule TD {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; VERTICAL-ALIGN: middle; PADDING-TOP: 2px
+}
+#topmodule {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 0px
+}
+#topmodule P {
+	PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 5px
+}
+.vcblame {
+	BACKGROUND-COLOR: #ccc
+}
+.vcblame TD {
+	BORDER-BOTTOM: rgb(204,204,204) 1px dotted; WHITE-SPACE: pre
+}
+.vcblamecell {
+	TEXT-ALIGN: right; PADDING-RIGHT: 2em
+}
+.vcblametexta {
+	TEXT-ALIGN: left; BORDER-LEFT: black 1px solid
+}
+.vcblametextb {
+	TEXT-ALIGN: left; BORDER-LEFT: black 1px solid
+}
+.vcblametexta {
+	BACKGROUND-COLOR: #fff !important
+}
+.vcblametextb {
+	BACKGROUND-COLOR: #fff !important
+}
+.vcdiff {
+	BACKGROUND-COLOR: #fff
+}
+.vcdiff TD {
+	WHITE-SPACE: pre
+}
+.vcdiffadd {
+	BACKGROUND-COLOR: #9f9
+}
+.vcdiffremove {
+	BACKGROUND-COLOR: #f99
+}
+.vcdiffchanges1 {
+	BACKGROUND-COLOR: #ff7; COLOR: #888
+}
+.vcdiffchanges2 {
+	BACKGROUND-COLOR: #ff0
+}
+.vcmarkup-comment {
+	FONT-STYLE: italic; COLOR: #ac2020
+}
+.vcmarkup-function-name {
+	COLOR: #404040
+}
+.vcmarkup-variable-name {
+	COLOR: #208920
+}
+.vcmarkup-keyword {
+	COLOR: #9c20ee; FONT-WEIGHT: bold
+}
+.vcmarkup-reference {
+	COLOR: #222222
+}
+.vcmarkup-string {
+	COLOR: #bd8d8b
+}
+.vcmarkup-builtin {
+	COLOR: #9c20ee; FONT-WEIGHT: bold
+}
+.vcmarkup-type {
+	COLOR: #208920
+}
+.vcmarkup-highlight {
+	BACKGROUND-COLOR: yellow
+}
+.moveTarget {
+	COLOR: #000; CURSOR: pointer
+}
+.moveTarget-disabled {
+	COLOR: #999
+}
+#rightcol DIV.siteinfo DIV {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 3px; PADDING-RIGHT: 2px; PADDING-TOP: 1px
+}
+#rightcol DIV.siteinfo H2 {
+	PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #abd; MARGIN-TOP: 0.5em; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-SIZE: 1em; FONT-WEIGHT: normal; PADDING-TOP: 3px
+}
+#rightcol DIV.www H3 {
+	PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #ddd; MARGIN-TOP: 0em; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-SIZE: 1em; FONT-WEIGHT: normal; PADDING-TOP: 3px
+}
+#rightcol DIV.help H3 {
+	PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #ddd; MARGIN-TOP: 0em; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-SIZE: 1em; FONT-WEIGHT: normal; PADDING-TOP: 3px
+}
+#rightcol DIV.www P {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 1px
+}
+#rightcol DIV.help P {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 1px
+}
+#rightcol DIV.www UL {
+	PADDING-LEFT: 2em
+}
+#rightcol DIV.help UL {
+	PADDING-LEFT: 2em
+}
+.band1 {
+	BACKGROUND-COLOR: #663; COLOR: #fff
+}
+.band2 {
+	BACKGROUND-COLOR: #66c; COLOR: #fff
+}
+.band3 {
+	BACKGROUND-COLOR: #c99
+}
+.band4 {
+	BACKGROUND-COLOR: #cff
+}
+.band5 {
+	BACKGROUND-COLOR: #336; COLOR: #fff
+}
+.band6 {
+	BACKGROUND-COLOR: #966; COLOR: #fff
+}
+.band7 {
+	BACKGROUND-COLOR: #9cc
+}
+.band8 {
+	BACKGROUND-COLOR: #ffc
+}
+.band9 {
+	BACKGROUND-COLOR: #633; COLOR: #fff
+}
+.band10 {
+	BACKGROUND-COLOR: #699; COLOR: #fff
+}
+.band11 {
+	BACKGROUND-COLOR: #cc9
+}
+.band12 {
+	BACKGROUND-COLOR: #ccf
+}
+.band13 {
+	BACKGROUND-COLOR: #366; COLOR: #fff
+}
+.band14 {
+	BACKGROUND-COLOR: #996; COLOR: #fff
+}
+.band15 {
+	BACKGROUND-COLOR: #99c
+}
+.band16 {
+	BACKGROUND-COLOR: #fcc
+}
+.red {
+	COLOR: #f00
+}
+.green {
+	COLOR: #060
+}
+.blue {
+	COLOR: #036
+}
+.purple {
+	COLOR: #339
+}
+.tip {
+	MARGIN-TOP: 3px; MARGIN-BOTTOM: 4px; COLOR: #333
+}
+P.attrdesc {
+	MARGIN-LEFT: 0px
+}
+.tiptexttoggle {
+	BORDER-BOTTOM: #89c 1px solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #c0cfdb; MARGIN: -3px 1px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; COLOR: #444; BORDER-TOP: medium none; BORDER-RIGHT: #89c 1px solid; PADDING-TOP: 2px
+}
+.tiptexttoggle INPUT {
+	COLOR: #444; FONT-SIZE: 0.9em
+}
+#helpbox {
+	BORDER-BOTTOM: #888 1px solid; BORDER-LEFT: #ddd 1px solid; PADDING-BOTTOM: 1em; BACKGROUND-COLOR: #fefee6; PADDING-LEFT: 6px; PADDING-RIGHT: 11px; MARGIN-BOTTOM: 1em; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #888 1px solid; PADDING-TOP: 6px
+}
+#helpbox P {
+	MARGIN-LEFT: 5px
+}
+.th-heading {
+	PADDING-BOTTOM: 7px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 2px
+}
+.leftpadding-medium {
+	PADDING-LEFT: 14px
+}
+FORM {
+	MARGIN: 0px
+}
+OL OL {
+	LIST-STYLE-TYPE: lower-alpha
+}
+OL OL OL {
+	LIST-STYLE-TYPE: lower-roman
+}
+.tasknav {
+	MARGIN-BOTTOM: 1.33em
+}
+DIV.a {
+	PADDING-BOTTOM: 3px; MARGIN: 2px 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+DIV.b {
+	PADDING-BOTTOM: 3px; MARGIN: 2px 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; PADDING-TOP: 3px
+}
+.right {
+	TEXT-ALIGN: right !important
+}
+.center {
+	TEXT-ALIGN: center !important
+}
+BODY .stb {
+	MARGIN-TOP: 1em; TEXT-INDENT: 0px
+}
+BODY .mtb {
+	MARGIN-TOP: 2em; TEXT-INDENT: 0px
+}
+.courtesylinks {
+	MARGIN-TOP: 1em; PADDING-TOP: 1em
+}
+DD {
+	MARGIN-BOTTOM: 0.67em
+}
+.tier1 {
+	MARGIN-LEFT: 0px
+}
+.tier2 {
+	MARGIN-LEFT: 1.5em
+}
+.tier3 {
+	MARGIN-LEFT: 3em
+}
+.tier4 {
+	MARGIN-LEFT: 4.5em
+}
+.tier5 {
+	MARGIN-LEFT: 6em
+}
+.tier6 {
+	MARGIN-LEFT: 7.5em
+}
+.tier7 {
+	MARGIN-LEFT: 9em
+}
+.tier8 {
+	MARGIN-LEFT: 10.5em
+}
+.tier9 {
+	MARGIN-LEFT: 12em
+}
+.tier10 {
+	MARGIN-LEFT: 13.5em
+}
+.filebrowse .expanded {
+	PADDING-LEFT: 18px
+}
+.filebrowse .collapsed {
+	PADDING-LEFT: 18px
+}
+.filebrowse .leafnode {
+	PADDING-LEFT: 20px
+}
+.filebrowse .leaf {
+	PADDING-LEFT: 20px
+}
+.filebrowse-alt .expanded {
+	PADDING-LEFT: 0px !important; WIDTH: 18px; DISPLAY: inline-block; FLOAT: left; HEIGHT: 15px
+}
+.filebrowse-alt .collapsed {
+	PADDING-LEFT: 0px !important; WIDTH: 18px; DISPLAY: inline-block; FLOAT: left; HEIGHT: 15px
+}
+.filebrowse-alt .leaf {
+	PADDING-LEFT: 0px !important; WIDTH: 18px; DISPLAY: inline-block; FLOAT: left; HEIGHT: 15px
+}
+.filebrowse-alt .leafnode {
+	PADDING-LEFT: 0px !important; WIDTH: 18px; DISPLAY: inline-block; FLOAT: left; HEIGHT: 15px
+}
+.sortup {
+	PADDING-LEFT: 0px !important; WIDTH: 18px; DISPLAY: inline-block; FLOAT: left; HEIGHT: 15px
+}
+.sortdown {
+	PADDING-LEFT: 0px !important; WIDTH: 18px; DISPLAY: inline-block; FLOAT: left; HEIGHT: 15px
+}
+.filebrowse-alt .leaf {
+	WIDTH: 20px
+}
+.filebrowse-alt .leafnode {
+	WIDTH: 20px
+}
+.sortup {
+	WIDTH: 20px
+}
+.sortdown {
+	WIDTH: 20px
+}
+.filebrowse UL {
+	LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; MARGIN-LEFT: 0px
+}
+.filebrowse-alt UL {
+	LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; MARGIN-LEFT: 0px
+}
+.filebrowse UL UL {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 1.5em; PADDING-TOP: 0.67em
+}
+.filebrowse-alt UL UL {
+	MARGIN-TOP: 0px; MARGIN-LEFT: 1.5em; PADDING-TOP: 0.67em
+}
+.filebrowse LI {
+	MARGIN-BOTTOM: 0.67em
+}
+.filebrowse-alt LI {
+	MARGIN-BOTTOM: 0.67em
+}
+TD.filebrowse H3 {
+	MARGIN-TOP: 0px
+}
+#footer {
+	MARGIN: 1em 12px 1.5em 10px; BACKGROUND: url(../images/dotted_line.gif) repeat-x left top; PADDING-TOP: 1em
+}
+.selectiongroup {
+	PADDING-LEFT: 1.5em
+}
+.selectiongroup2 {
+	PADDING-LEFT: 2em
+}
+.inputgroup2 {
+	PADDING-LEFT: 3em
+}
+.inputgroup3 {
+	WHITE-SPACE: nowrap
+}
+.inputstack {
+	MARGIN-TOP: 3px; WHITE-SPACE: nowrap; MARGIN-BOTTOM: 4px
+}
+.removedbox {
+	FLOAT: left; MARGIN-RIGHT: 10px
+}
+.nowrap {
+	WHITE-SPACE: nowrap
+}
+.floatright {
+	FLOAT: right
+}
+.floatleft {
+	FLOAT: left
+}
+DIV.strut7 {
+	WIDTH: 7em
+}
+DIV.strut8 {
+	WIDTH: 8em
+}
+DIV.strut13 {
+	WIDTH: 13em
+}
+DIV.strut14 {
+	WIDTH: 14em
+}
+.strut15 {
+	WIDTH: 15em
+}
+.printbreak {
+	MARGIN-TOP: 20px; BORDER-TOP: #000 2px solid
+}
+DIV.printbreak {
+	PAGE-BREAK-AFTER: always !important
+}
+.messagechild {
+	PADDING-LEFT: 34px
+}
+BODY.composite #termsofservice {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; PADDING-BOTTOM: 5px; MARGIN-TOP: 10px; PADDING-LEFT: 10px; WIDTH: 95%; PADDING-RIGHT: 10px; DISPLAY: block; HEIGHT: 400px; OVERFLOW: auto; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 5px
+}
+BODY.composite #privacypolicy {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #aaa 1px solid; PADDING-BOTTOM: 5px; MARGIN-TOP: 10px; PADDING-LEFT: 10px; WIDTH: 95%; PADDING-RIGHT: 10px; DISPLAY: block; HEIGHT: 400px; OVERFLOW: auto; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #aaa 1px solid; PADDING-TOP: 5px
+}
+#additemlink {
+	MARGIN-TOP: 2px; PADDING-LEFT: 3px; PADDING-TOP: 2px
+}
+.additembox {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND: #efefef; PADDING-TOP: 5px
+}
+.additembox-expanded {
+	PADDING-LEFT: 14px
+}
+.sequenceicons {
+	MARGIN: 0px 4px 0px 0px
+}
+#toptabs {
+	MARGIN: 0px; PADDING-TOP: 0.1em
+}
+#toptabs TABLE {
+	MARGIN-TOP: 0em; PADDING-LEFT: 8px; MARGIN-LEFT: 8px; MARGIN-RIGHT: 1em
+}
+*:first-child + HTML #toptabs {
+	PADDING-LEFT: 16px
+}
+.h2 .h3 .tabs {
+	MARGIN-LEFT: 1.75em
+}
+.h2 .h4 .tabs {
+	MARGIN-LEFT: 1.75em
+}
+TABLE.tabs {
+	MARGIN-TOP: 5px
+}
+H2 + TABLE.tabs {
+	MARGIN-TOP: 0.5em
+}
+#toptabs .tabs TD {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; PADDING-TOP: 3px
+}
+#toptabs .tabs TH {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; PADDING-TOP: 3px
+}
+#toptabs TH {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; PADDING-TOP: 2px
+}
+#toptabs TD {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 9px; PADDING-RIGHT: 9px; PADDING-TOP: 2px
+}
+.tabset {
+	PADDING-BOTTOM: 0.67em; PADDING-LEFT: 0.67em; PADDING-RIGHT: 0.67em; PADDING-TOP: 0.67em
+}
+.tabset .tabset {
+	PADDING-BOTTOM: 0.67em; PADDING-LEFT: 0.67em; PADDING-RIGHT: 0.67em; PADDING-TOP: 0.67em
+}
+.navgroup DD LI.header {
+	MARGIN-TOP: 4px
+}
+.navgroup LI {
+	LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 10px
+}
+.navgroup {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.navgroup DT {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.navgroup DD {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.navgroup UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.navgroup LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.navgroup LI {
+	DISPLAY: block
+}
+.navgroup {
+	MARGIN-BOTTOM: 1px
+}
+.navgroup DD {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 0px; PADDING-RIGHT: 4px; PADDING-TOP: 4px
+}
+.navgroup DT {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 10px; PADDING-RIGHT: 4px; PADDING-TOP: 4px
+}
+.navgroup DL DT {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px !important; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.navgroup DD LI {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 1em
+}
+.navgroup DD DIV {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 1em
+}
+.navgroup DD LI LI {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 0.3em
+}
+#navcol {
+	WIDTH: 15em
+}
+#navcol .strut {
+	WIDTH: 15em
+}
+#mytools {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2px -2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#projecttools {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2px -2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#admintools {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2px -2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#communitytools {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2px -2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#almleftnav {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2px -2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#searchbox {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2px -2px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+TH {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 1px
+}
+TD {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; PADDING-TOP: 1px
+}
+TH {
+	TEXT-ALIGN: left; VERTICAL-ALIGN: top
+}
+TD {
+	TEXT-ALIGN: left; VERTICAL-ALIGN: top
+}
+.axial TH {
+	TEXT-ALIGN: right
+}
+.axial TH .strut {
+	TEXT-ALIGN: right
+}
+.axial TD TH {
+	TEXT-ALIGN: left
+}
+TABLE.axial TH {
+	WIDTH: 13em
+}
+TABLE.axial TH .strut {
+	WIDTH: 13em
+}
+.legend TH {
+	TEXT-ALIGN: right; PADDING-LEFT: 1em
+}
+.bars TH {
+	TEXT-ALIGN: right; PADDING-LEFT: 1em
+}
+.bars TH {
+	WIDTH: 12em
+}
+CAPTION {
+	TEXT-ALIGN: left
+}
+.actioncol {
+	WIDTH: 10em
+}
+.errormessage {
+	BORDER-LEFT: #900 1px solid; PADDING-BOTTOM: 0.67em; MARGIN: 0.67em 0px; MIN-HEIGHT: 32px; PADDING-LEFT: 42px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/icon_error_lrg.gif) no-repeat 5px 1.33em; BORDER-TOP: #900 5px solid; PADDING-TOP: 0.33em
+}
+.warningmessage {
+	BORDER-LEFT: #900 1px solid; PADDING-BOTTOM: 0.67em; MARGIN: 0.67em 0px; MIN-HEIGHT: 32px; PADDING-LEFT: 42px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/icon_error_lrg.gif) no-repeat 5px 1.33em; BORDER-TOP: #900 5px solid; PADDING-TOP: 0.33em
+}
+.donemessage {
+	BORDER-LEFT: #900 1px solid; PADDING-BOTTOM: 0.67em; MARGIN: 0.67em 0px; MIN-HEIGHT: 32px; PADDING-LEFT: 42px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/icon_error_lrg.gif) no-repeat 5px 1.33em; BORDER-TOP: #900 5px solid; PADDING-TOP: 0.33em
+}
+.infomessage {
+	BORDER-LEFT: #900 1px solid; PADDING-BOTTOM: 0.67em; MARGIN: 0.67em 0px; MIN-HEIGHT: 32px; PADDING-LEFT: 42px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/icon_error_lrg.gif) no-repeat 5px 1.33em; BORDER-TOP: #900 5px solid; PADDING-TOP: 0.33em
+}
+.errormessage {
+	BACKGROUND-COLOR: #fff5f1
+}
+.warningmessage {
+	BACKGROUND-IMAGE: url(../images/icon_warning_lrg.gif); BORDER-BOTTOM-COLOR: #c60; BACKGROUND-COLOR: #fdf7f1; BORDER-TOP-COLOR: #c60; BORDER-RIGHT-COLOR: #c60; BORDER-LEFT-COLOR: #c60
+}
+.donemessage {
+	BACKGROUND-IMAGE: url(../images/icon_success_lrg.gif); BORDER-BOTTOM-COLOR: #090; BACKGROUND-COLOR: #f8fff4; BORDER-TOP-COLOR: #090; BORDER-RIGHT-COLOR: #090; BORDER-LEFT-COLOR: #090
+}
+.infomessage {
+	BACKGROUND-IMAGE: url(../images/icon_info_lrg.gif); BORDER-BOTTOM-COLOR: #369; BACKGROUND-COLOR: #e7f3fe; BORDER-TOP-COLOR: #369; BORDER-RIGHT-COLOR: #369; BORDER-LEFT-COLOR: #369
+}
+.errormark {
+	MIN-HEIGHT: 15px; PADDING-LEFT: 20px; BACKGROUND: url(../images/icon_error_sml.gif) no-repeat
+}
+.warningmark {
+	MIN-HEIGHT: 15px; PADDING-LEFT: 20px; BACKGROUND: url(../images/icon_error_sml.gif) no-repeat
+}
+.donemark {
+	MIN-HEIGHT: 15px; PADDING-LEFT: 20px; BACKGROUND: url(../images/icon_error_sml.gif) no-repeat
+}
+.infomark {
+	MIN-HEIGHT: 15px; PADDING-LEFT: 20px; BACKGROUND: url(../images/icon_error_sml.gif) no-repeat
+}
+.warningmark {
+	BACKGROUND-IMAGE: url(../images/icon_warning_sml.gif)
+}
+.donemark {
+	BACKGROUND-IMAGE: url(../images/icon_success_sml.gif)
+}
+.infomark {
+	BACKGROUND-IMAGE: url(../images/icon_info_sml.gif)
+}
+.calendarbody {
+	MARGIN: 17px
+}
+.calendarweek {
+	BACKGROUND-COLOR: #ccc
+}
+.calendarweeklabel {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 7px; BACKGROUND-COLOR: #aaa
+}
+.calendardays {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+calendarperiod {
+	BORDER-BOTTOM: #999 1px solid; BORDER-LEFT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #999 1px solid
+}
+.calendardays TABLE {
+	BACKGROUND-COLOR: #ccc
+}
+.calendarperiod TABLE {
+	BACKGROUND-COLOR: #ccc
+}
+.calendarmonths {
+	BORDER-BOTTOM: #69c 1px solid; BORDER-LEFT: #ccf 1px solid; BACKGROUND-COLOR: #9bf; BORDER-TOP: #ccf 1px solid; BORDER-RIGHT: #69c 1px solid
+}
+.calendartoday {
+	BORDER-BOTTOM: #69c 1px solid; BORDER-LEFT: #aaa 1px solid; BACKGROUND-COLOR: #ee9; BORDER-TOP: #999 1px solid; BORDER-RIGHT: #777 1px solid
+}
+.calendartoday {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 2px; PADDING-TOP: 0px
+}
+.calendarmonths {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 2px; PADDING-TOP: 0px
+}
+.periodax {
+	BACKGROUND-COLOR: #9cc
+}
+.periodbx {
+	BACKGROUND-COLOR: #ac9
+}
+.currentperiod {
+	BACKGROUND-COLOR: #ee9
+}
+#today {
+	BACKGROUND-COLOR: #ee9
+}
+.othermonthday {
+	BACKGROUND-COLOR: #ddd; COLOR: #888
+}
+.othermonthday A {
+	BACKGROUND-COLOR: #ddd; COLOR: #888
+}
+.calendarday {
+	BACKGROUND-COLOR: #fff
+}
+#selectedDate {
+	BACKGROUND-COLOR: #9e5
+}
+.periodax {
+	BORDER-BOTTOM: #eee 1px solid
+}
+.periodbx {
+	BORDER-BOTTOM: #eee 1px solid
+}
+.currentperiod {
+	BORDER-BOTTOM: #eee 1px solid
+}
+.periodax {
+	TEXT-ALIGN: right
+}
+.periodbx {
+	TEXT-ALIGN: right
+}
+.currentperiod {
+	TEXT-ALIGN: right
+}
+.calendarday {
+	TEXT-ALIGN: right
+}
+.periodax {
+	PADDING-BOTTOM: 7px
+}
+.periodbx {
+	PADDING-BOTTOM: 7px
+}
+.currentperiod {
+	PADDING-BOTTOM: 7px
+}
+.othermonthday {
+	PADDING-BOTTOM: 7px
+}
+.othermonthday A {
+	PADDING-BOTTOM: 7px
+}
+.calendarday {
+	PADDING-BOTTOM: 7px
+}
+#projectperformance {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 10px
+}
+.effort {
+	MARGIN-LEFT: 50px
+}
+.effortbar1 {
+	POSITION: absolute
+}
+.effortbar2 {
+	POSITION: absolute
+}
+.dashboardchart {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 5px; MARGIN: 2px 2px 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.statusnotstarted {
+	WIDTH: 50px; WHITE-SPACE: nowrap; HEIGHT: 10px
+}
+.statusontrack {
+	WIDTH: 50px; WHITE-SPACE: nowrap; HEIGHT: 10px
+}
+.statuscaution {
+	WIDTH: 50px; WHITE-SPACE: nowrap; HEIGHT: 10px
+}
+.statusslip {
+	WIDTH: 50px; WHITE-SPACE: nowrap; HEIGHT: 10px
+}
+.statusended {
+	WIDTH: 50px; WHITE-SPACE: nowrap; HEIGHT: 10px
+}
+.indenttable TH .strut {
+	WIDTH: 16em
+}
+.cumulative TD {
+	BACKGROUND-COLOR: #bbb
+}
+.subtotal {
+	BACKGROUND-COLOR: #bbb
+}
+.rollupactivity TD {
+	BACKGROUND-COLOR: #ddd
+}
+.effortbar1 {
+	BACKGROUND-COLOR: #79f
+}
+.effortbar2 {
+	BACKGROUND-COLOR: #aaa
+}
+.dashboardchart {
+	BACKGROUND-COLOR: #ddd
+}
+TABLE TD.statusnotstarted {
+	BACKGROUND: #cca
+}
+.statusnotstarted {
+	BACKGROUND: #cca
+}
+TABLE TD.statusontrack {
+	BACKGROUND: #6c6
+}
+.statusontrack {
+	BACKGROUND: #6c6
+}
+TABLE TD.statuscaution {
+	BACKGROUND: #fc6
+}
+.statuscaution {
+	BACKGROUND: #fc6
+}
+TABLE TD.statusalert {
+	BACKGROUND: #769d00
+}
+.statusalert {
+	BACKGROUND: #769d00
+}
+TABLE TD.statusended {
+	BACKGROUND: #ccc
+}
+.statusended {
+	BACKGROUND: #ccc
+}
+.reportlet {
+	MIN-WIDTH: 620px; WIDTH: 100%; CLEAR: both
+}
+.reportlet .tabset {
+	WIDTH: 98%; FLOAT: left
+}
+.reportlet-a {
+	BORDER-BOTTOM: #998 1px solid; MIN-WIDTH: 300px; BORDER-LEFT: #998 1px solid; WIDTH: 49%; BORDER-TOP: #998 1px solid; BORDER-RIGHT: #998 1px solid
+}
+.reportlet-b {
+	BORDER-BOTTOM: #998 1px solid; MIN-WIDTH: 300px; BORDER-LEFT: #998 1px solid; WIDTH: 49%; BORDER-TOP: #998 1px solid; BORDER-RIGHT: #998 1px solid
+}
+.reportlet-a {
+	FLOAT: left
+}
+.reportlet-b {
+	POSITION: relative; FLOAT: right
+}
+* HTML .reportlet-b {
+	POSITION: fixed
+}
+.reportlet-single {
+	BORDER-BOTTOM: #998 1px solid; MIN-WIDTH: 600px; BORDER-LEFT: #998 1px solid; WIDTH: 100%; BORDER-TOP: #998 1px solid; BORDER-RIGHT: #998 1px solid
+}
+.reportlet-footer {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 3px; MARGIN: 0px
+}
+.reportlet P {
+	MARGIN: 0px
+}
+.report-title {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #ccccc1; FONT-WEIGHT: bold
+}
+.reportlet-title {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #ccccc1; FONT-WEIGHT: bold
+}
+H2.report-title {
+	PADDING-BOTTOM: 9px; MARGIN-TOP: 1em; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; MARGIN-BOTTOM: 0.25em; FONT-SIZE: 1.4em; PADDING-TOP: 4px
+}
+H4.reportlet-title {
+	BORDER-BOTTOM-STYLE: none; PADDING-BOTTOM: 4px; BORDER-RIGHT-STYLE: none; MARGIN: 0px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BORDER-TOP-STYLE: none; FONT-SIZE: 1.1em; BORDER-LEFT-STYLE: none; PADDING-TOP: 3px
+}
+.metricchart {
+	TEXT-ALIGN: center; MARGIN: 6px auto
+}
+.metricchart IMG {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid; BORDER-TOP: #ddd 1px solid; BORDER-RIGHT: #ddd 1px solid
+}
+.reportletchart {
+	TEXT-ALIGN: center; MARGIN: 3px auto
+}
+#report-links {
+	TEXT-ALIGN: right; MARGIN: 0px 5px 2px
+}
+#report-export {
+	FLOAT: right; MARGIN-LEFT: 3em
+}
+#report-sequence {
+	MARGIN-BOTTOM: 1em
+}
+#report-sequence TABLE {
+	BACKGROUND-COLOR: #ccc; BORDER-SPACING: 0px; WIDTH: 100%
+}
+#report-sequence TABLE TD {
+	WIDTH: 25%
+}
+#report-sequence TABLE TH {
+	WIDTH: 25%
+}
+#report-sequence TABLE TH {
+	BACKGROUND-COLOR: #cef; FONT-WEIGHT: bold
+}
+#tracker-ocn {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; COLOR: #444; FONT-SIZE: x-small; PADDING-TOP: 3px
+}
+TD.sequence-known {
+	BACKGROUND-COLOR: #ace; COLOR: #333
+}
+TD.sequence-previous {
+	BACKGROUND-COLOR: #ace; COLOR: #333
+}
+TD.sequence-unknown {
+	BACKGROUND-COLOR: inherit; COLOR: #333
+}
+TD.sequence-next {
+	BACKGROUND-COLOR: inherit; COLOR: #333
+}
+#report-sequence TD {
+	BORDER-BOTTOM: #666 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #666 1px solid; PADDING-TOP: 4px
+}
+#report-sequence TH {
+	BORDER-BOTTOM: #666 1px solid; BORDER-LEFT: #ccc 1px solid; PADDING-BOTTOM: 4px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #666 1px solid; PADDING-TOP: 4px
+}
+.select-medium {
+	MIN-WIDTH: 13em; MARGIN: 3px 0px
+}
+#statename-display {
+	FONT-WEIGHT: bold
+}
+.btnTop {
+	VERTICAL-ALIGN: top
+}
+#footer P {
+	MARGIN-TOP: 3px; COLOR: #555
+}
+.tabs TD {
+	BACKGROUND: url(../images/gradient_dark.gif) #898989 repeat-x; BORDER-RIGHT: #fff 1px solid
+}
+.tabs TH {
+	BACKGROUND: url(../images/gradient_light.gif) #efefef repeat-x; BORDER-RIGHT: #fff 1px solid
+}
+.tabs TH {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 3px
+}
+.tabs TD {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 3px
+}
+.tabs TD:hover {
+	BACKGROUND: #c6c6c6
+}
+.tabs TH A {
+	PADDING-BOTTOM: 3px; MARGIN: 0px -20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 3px
+}
+.tabs TD A {
+	PADDING-BOTTOM: 3px; MARGIN: 0px -20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; PADDING-TOP: 3px
+}
+.tabset TABLE.tabs {
+	BORDER-LEFT: #ccc 1px solid; BACKGROUND: url(../images/gradient_light.gif) #efefef repeat-x
+}
+#broadcastmsg {
+	BORDER-BOTTOM: #aaa 1px solid; BORDER-LEFT: #999 1px solid; BACKGROUND-COLOR: #ecf4fe; MARGIN: 0.75em 0em; BACKGROUND-POSITION: 3px 6px; BORDER-TOP: #aaa 1px solid; BORDER-RIGHT: #999 1px solid
+}
+#ownermessage {
+	BORDER-BOTTOM: #369 1px solid; BORDER-LEFT: #369 1px solid; PADDING-BOTTOM: 0.67em; MARGIN: 0.67em 0px 1.5em; MIN-HEIGHT: 32px; PADDING-LEFT: 42px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/icon_info_lrg.gif) #e7f3fe no-repeat 5px 5px; BORDER-TOP: #369 5px solid; BORDER-RIGHT: #369 1px solid; PADDING-TOP: 0.33em
+}
+#ownermessage H2 {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: transparent; MARGIN: 3px 0px 5px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 0px
+}
+.recentpost {
+	PADDING-RIGHT: 14px; BACKGROUND: url(../images/icon_new_sm.png) no-repeat right top
+}
+.needmod {
+	FONT-WEIGHT: bold
+}
+.needmod A {
+	COLOR: red !important
+}
+.needmod A:visited {
+	COLOR: red !important
+}
+.moderatorIcon {
+	PADDING-RIGHT: 14px; BACKGROUND: url(../images/icon_moderator_sm.png) no-repeat right top
+}
+.subscribedButton {
+	WIDTH: 26px; FLOAT: left; HEIGHT: 24px
+}
+.notSubscribedButton {
+	WIDTH: 26px; FLOAT: left; HEIGHT: 24px
+}
+.subscribedButton {
+	BACKGROUND: url(../images/discussion_subscribed.png) no-repeat 2px 3px
+}
+.notSubscribedButton {
+	BACKGROUND: url(../images/discussion_not_subscribed.png) no-repeat 2px 3px
+}
+.attachmenticon {
+	PADDING-BOTTOM: 2px; PADDING-LEFT: 20px; BACKGROUND: url(../images/icon_attachment.png) no-repeat left top
+}
+.indentdiscussion {
+	PADDING-LEFT: 25px
+}

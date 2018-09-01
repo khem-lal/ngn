@@ -1,0 +1,582 @@
+BODY {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+H1 {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+H2 {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+H3 {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+H4 {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+H5 {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+H6 {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+P {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+TD {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+TABLE TD {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+INPUT {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+SELECT {
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif
+}
+CODE {
+	FONT-FAMILY: "Andale Mono", Courier, monospace
+}
+PRE {
+	FONT-FAMILY: "Andale Mono", Courier, monospace
+}
+BODY {
+	FONT-SIZE: small; voice-family: inherit
+}
+PRE {
+	FONT-SIZE: small; voice-family: inherit
+}
+CODE {
+	FONT-SIZE: small; voice-family: inherit
+}
+#bodycol {
+	LINE-HEIGHT: 135%; FONT-SIZE: 95%
+}
+#bodycol TABLE TD {
+	LINE-HEIGHT: 135%; FONT-SIZE: 95%
+}
+#bodycol TABLE TH {
+	LINE-HEIGHT: 135%; FONT-SIZE: 95%
+}
+#bodycol TABLE TABLE TD {
+	FONT-SIZE: 100%
+}
+#bodycol TABLE TABLE TH {
+	FONT-SIZE: 100%
+}
+INPUT {
+	LINE-HEIGHT: 100%
+}
+#banner {
+	BACKGROUND-COLOR: #663
+}
+#toptabs {
+	BACKGROUND-COLOR: #663
+}
+#banner {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#bannertable {
+	PADDING-LEFT: 8px; PADDING-TOP: 10px
+}
+#toptabs {
+	BORDER-BOTTOM: #cc9 6px solid
+}
+#breadcrumbs {
+	BACKGROUND-COLOR: #cc9
+}
+#tigrisheading {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BACKGROUND-COLOR: #663; COLOR: white; FONT-SIZE: medium; BORDER-TOP: medium none; FONT-WEIGHT: bolder; BORDER-RIGHT: medium none; PADDING-TOP: 5px
+}
+#tigrisheading DIV {
+	PADDING-TOP: 3px
+}
+#tigrisheading DIV.smaller {
+	FONT-SIZE: small
+}
+.application TH {
+	BACKGROUND-COLOR: #ddc
+}
+.app TH {
+	BACKGROUND-COLOR: #ddc
+}
+.axial TH {
+	BACKGROUND-COLOR: #ddc
+}
+#main {
+	PADDING-RIGHT: 6px
+}
+#collabnet {
+	PADDING-RIGHT: 10px
+}
+.h2 H2 {
+	BACKGROUND-COLOR: #663; COLOR: #fff; BORDER-TOP: #440 1px solid
+}
+.h2 H2 A:link {
+	COLOR: #fff !important; TEXT-DECORATION: underline
+}
+.h2 H2 A:visited {
+	COLOR: #fff !important; TEXT-DECORATION: underline
+}
+H3 {
+	COLOR: #663
+}
+.h2 .h3 H3 {
+	BACKGROUND-COLOR: #dfdf9c; COLOR: #000
+}
+#login {
+	COLOR: #fff
+}
+#login A {
+	COLOR: #fff
+}
+#login A {
+	TEXT-DECORATION: underline
+}
+#login A:hover {
+	COLOR: #ccf !important
+}
+#toptabs TH {
+	BACKGROUND-COLOR: #cc9
+}
+.tabs TD {
+	BACKGROUND: url(../images/gradient_dark.gif) #eed repeat-x
+}
+.tabs TH {
+	BACKGROUND: url(../images/gradient_light.gif) #cc9 repeat-x
+}
+#toptabs {
+	BORDER-BOTTOM: medium none
+}
+*:first-child + HTML #toptabs {
+	PADDING-LEFT: 16px
+}
+.tabset {
+	BACKGROUND-COLOR: #eed
+}
+A:visited {
+	COLOR: #036; TEXT-DECORATION: none
+}
+#bodycol A:visited {
+	COLOR: #036; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000; TEXT-DECORATION: none
+}
+#navcol A:link {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+#navcol A:visited {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+#bodycol A:link {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+.tasknav A:link {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+.tasknav A:visited {
+	COLOR: #06c; TEXT-DECORATION: none
+}
+#toptabs .tabs TH {
+	COLOR: #000 !important
+}
+#toptabs TH A:link {
+	COLOR: #000 !important
+}
+#toptabs TH A:visited {
+	COLOR: #000 !important
+}
+.tabs TH {
+	COLOR: #000 !important
+}
+.tabs TH A:link {
+	COLOR: #000 !important
+}
+.tabs TH A:visited {
+	COLOR: #000 !important
+}
+.tabs TD {
+	COLOR: #333 !important
+}
+.tabs TD A:link {
+	COLOR: #333 !important
+}
+.tabs TD A:visited {
+	COLOR: #333 !important
+}
+#toptabs .tabs TD {
+	COLOR: #eed !important
+}
+#toptabs TD A:link {
+	COLOR: #eed !important
+}
+#toptabs TD A:visited {
+	COLOR: #eed !important
+}
+.tabset .b TD {
+	BACKGROUND-COLOR: #ddd
+}
+.tabset .a TD {
+	BACKGROUND-COLOR: #ddd
+}
+.tabset TABLE.tabs {
+	BORDER-LEFT: #ccc 1px solid; BACKGROUND: #eed
+}
+#navcol A:link {
+	COLOR: #000
+}
+#navcol A:visited {
+	COLOR: #000
+}
+#mytools DT {
+	FONT-WEIGHT: bold !important
+}
+#projecttools DT {
+	FONT-WEIGHT: bold !important
+}
+#admintools DT {
+	FONT-WEIGHT: bold !important
+}
+#communitytools DT {
+	FONT-WEIGHT: bold !important
+}
+#almleftnav DT {
+	FONT-WEIGHT: bold !important
+}
+#searchbox DT {
+	FONT-WEIGHT: bold !important
+}
+#helptext DT {
+	FONT-WEIGHT: bold !important
+}
+#rightcol .siteinfo H2 {
+	FONT-WEIGHT: bold !important
+}
+#rightcol .siteinfo H2 {
+	FONT-SIZE: 12px !important
+}
+A:active {
+	COLOR: #036 !important
+}
+A:hover {
+	COLOR: #036 !important
+}
+#leftcol A:active {
+	COLOR: #036 !important
+}
+#leftcol A:hover {
+	COLOR: #036 !important
+}
+#highlights A:active {
+	COLOR: #036 !important
+}
+#highlights A:hover {
+	COLOR: #036 !important
+}
+#helptext DT {
+	BACKGROUND-COLOR: #dd9 !important
+}
+#highlights {
+	BORDER-BOTTOM: #999 1px solid; BACKGROUND: #eed; BORDER-RIGHT: #999 1px solid
+}
+#highlights A:link {
+	COLOR: black
+}
+#highlights A:visited {
+	COLOR: black
+}
+#highlights {
+	PADDING-BOTTOM: 6px; MARGIN: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; PADDING-TOP: 6px
+}
+#mainhighlights {
+	MARGIN-TOP: 1em
+}
+#mainhighlights TD DIV {
+	MARGIN: 0.5em
+}
+#mainhighlights TH {
+	BACKGROUND: #dd9
+}
+#mainhighlights TD {
+	BACKGROUND: #ffc
+}
+#mainhighlights {
+	FONT-SIZE: x-small; voice-family: inherit
+}
+#mainhighlights TD {
+	FONT-SIZE: x-small; voice-family: inherit
+}
+#mainhighlights TH {
+	FONT-SIZE: x-small; voice-family: inherit
+}
+#mainhighlights TD {
+	BORDER-BOTTOM: #cc9 1px solid; BORDER-RIGHT: #cc9 1px solid
+}
+#mainhighlights TH {
+	BORDER-BOTTOM: #996 1px solid; BORDER-RIGHT: #996 1px solid
+}
+.navgroup DT {
+	BACKGROUND: #dd9
+}
+.navgroup {
+	BACKGROUND: #eed; COLOR: #000
+}
+#mytools {
+	BACKGROUND-COLOR: #dd9; COLOR: #000 !important
+}
+#projecttools {
+	BACKGROUND-COLOR: #dd9; COLOR: #000 !important
+}
+#almleftnav {
+	BACKGROUND-COLOR: #dd9; COLOR: #000 !important
+}
+#admintools {
+	BACKGROUND-COLOR: #dd9; COLOR: #000 !important
+}
+#communitytools {
+	BACKGROUND-COLOR: #dd9; COLOR: #000 !important
+}
+#mytools DT {
+	BACKGROUND-COLOR: #dd9; COLOR: #000 !important
+}
+#projecttools DT {
+	BACKGROUND-COLOR: #dd9; COLOR: #000 !important
+}
+#almleftnav DT {
+	BACKGROUND-COLOR: #dd9; COLOR: #000 !important
+}
+#admintools DT {
+	BACKGROUND-COLOR: #dd9; COLOR: #000 !important
+}
+#communitytools DT {
+	BACKGROUND-COLOR: #dd9; COLOR: #000 !important
+}
+#searchbox DT {
+	COLOR: #000 !important
+}
+#helptext DT {
+	COLOR: #000 !important
+}
+.a TD {
+	BACKGROUND: #eee
+}
+.b TD {
+	BACKGROUND: #eee
+}
+#domainhome P {
+	LINE-HEIGHT: 1.3em; FONT-SIZE: 1.1em
+}
+#domainhome LI {
+	LINE-HEIGHT: 1.3em; FONT-SIZE: 1.1em
+}
+#rightcol P {
+	LINE-HEIGHT: 1.3em; FONT-SIZE: 1.1em
+}
+#domainhome A:link {
+	TEXT-DECORATION: underline !important
+}
+#domainhome A:visited {
+	TEXT-DECORATION: underline !important
+}
+#rightcol .siteinfo A:link {
+	TEXT-DECORATION: underline !important
+}
+#rightcol .siteinfo A:visited {
+	TEXT-DECORATION: underline !important
+}
+#rightcol DIV.siteinfo .a {
+	BACKGROUND: #eee
+}
+#rightcol DIV.siteinfo H2 {
+	BACKGROUND-COLOR: #663 !important; COLOR: #fff !important
+}
+#bodycol .application A:visited {
+	COLOR: purple !important
+}
+#bodycol .app A:visited #bodycol .tasknav A:visited {
+	COLOR: purple !important
+}
+.readyset H3 {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 3px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 2px; CLEAR: both; MARGIN-RIGHT: 2px; PADDING-TOP: 3px
+}
+.readyset H4 {
+	PADDING-BOTTOM: 3px; PADDING-LEFT: 5px; PADDING-RIGHT: 3px; MARGIN-BOTTOM: 0px; MARGIN-LEFT: 2px; CLEAR: both; MARGIN-RIGHT: 2px; PADDING-TOP: 3px
+}
+.readyset .axial TH {
+	TEXT-ALIGN: right; WHITE-SPACE: nowrap
+}
+DD {
+	MARGIN-BOTTOM: 0.67em
+}
+.tier1 {
+	MARGIN-LEFT: 0px
+}
+.tier2 {
+	MARGIN-LEFT: 1.5em
+}
+.tier3 {
+	MARGIN-LEFT: 3em
+}
+.tier4 {
+	MARGIN-LEFT: 4.5em
+}
+.level1 {
+	PADDING-LEFT: 0px
+}
+.level2 {
+	PADDING-LEFT: 1em
+}
+.level3 {
+	PADDING-LEFT: 2em
+}
+.level4 {
+	PADDING-LEFT: 3em
+}
+TR UL {
+	MARGIN-TOP: 0px
+}
+TR OL {
+	MARGIN-TOP: 0px
+}
+TR P {
+	MARGIN-TOP: 0px
+}
+TR UL {
+	PADDING-LEFT: 2em; MARGIN-LEFT: 0px
+}
+.sticky {
+	BORDER-BOTTOM: 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; MARGIN-BOTTOM: 3px; MARGIN-RIGHT: 2px; BORDER-RIGHT: 1px solid; PADDING-TOP: 3px
+}
+.tip {
+	BORDER-BOTTOM: 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; MARGIN-BOTTOM: 3px; MARGIN-RIGHT: 2px; BORDER-RIGHT: 1px solid; PADDING-TOP: 3px
+}
+.todo {
+	BORDER-BOTTOM: 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; MARGIN-BOTTOM: 3px; MARGIN-RIGHT: 2px; BORDER-RIGHT: 1px solid; PADDING-TOP: 3px
+}
+#processimpact {
+	BORDER-BOTTOM: 1px solid; BORDER-LEFT: 1px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; MARGIN-BOTTOM: 2px; BORDER-TOP: 1px solid; MARGIN-RIGHT: 2px; BORDER-RIGHT: 1px solid; PADDING-TOP: 3px
+}
+.footnote {
+	MARGIN-TOP: 3em; WIDTH: 80%; FONT-SIZE: x-small; BORDER-TOP: #aaa 1px solid; PADDING-TOP: 3px
+}
+.reusablefragment {
+	PADDING-BOTTOM: 6px; MARGIN-TOP: 3em; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; MARGIN-BOTTOM: 3em; PADDING-TOP: 6px
+}
+.sample1 {
+	PADDING-RIGHT: 2px; MARGIN-BOTTOM: 4px
+}
+.sample2 {
+	PADDING-RIGHT: 2px; MARGIN-BOTTOM: 4px
+}
+.sample3 {
+	PADDING-RIGHT: 2px; MARGIN-BOTTOM: 4px
+}
+.sample4 {
+	PADDING-RIGHT: 2px; MARGIN-BOTTOM: 4px
+}
+.legal1 {
+	BORDER-BOTTOM: 2px solid; TEXT-ALIGN: center !important; BORDER-LEFT: 2px solid; PADDING-BOTTOM: 3px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; DISPLAY: none; FONT-SIZE: xx-large; BORDER-TOP: 2px solid; FONT-WEIGHT: bold; BORDER-RIGHT: 2px solid; PADDING-TOP: 3px
+}
+.linklist A {
+	DISPLAY: block
+}
+.sub {
+	PADDING-LEFT: 1em
+}
+.footnote {
+	DISPLAY: block
+}
+.sticky {
+	BORDER-BOTTOM-COLOR: #aaa; BACKGROUND: #ffc; BORDER-RIGHT-COLOR: #aaa
+}
+.tip {
+	BORDER-BOTTOM-COLOR: #aaa; MIN-WIDTH: 30px; MIN-HEIGHT: 30px; PADDING-LEFT: 36px; BACKGROUND: url(http://www.readysetpro.com/css/tip.gif) #ffc no-repeat left top; BORDER-RIGHT-COLOR: #aaa
+}
+.todo {
+	BORDER-BOTTOM-COLOR: #aaa; MIN-WIDTH: 30px; MIN-HEIGHT: 30px; PADDING-LEFT: 36px; BACKGROUND: url(http://www.readysetpro.com/css/todo.gif) #ffc no-repeat left top; BORDER-RIGHT-COLOR: #aaa
+}
+#processimpact {
+	BORDER-BOTTOM-COLOR: #aaa; MIN-WIDTH: 30px; BORDER-TOP-COLOR: #aaa; MIN-HEIGHT: 30px; PADDING-LEFT: 36px; BACKGROUND: url(http://www.readysetpro.com/css/gears.gif) #eee no-repeat left top; BORDER-RIGHT-COLOR: #aaa; BORDER-LEFT-COLOR: #aaa
+}
+.reusablefragment {
+	BORDER-BOTTOM: 2px dashed; BORDER-LEFT: 2px dashed; BACKGROUND: #eee; BORDER-TOP: 2px dashed; BORDER-RIGHT: 2px dashed
+}
+.sample1 {
+	BORDER-RIGHT: #500 4px double
+}
+.sample2 {
+	BORDER-RIGHT: #050 4px double
+}
+.sample3 {
+	BORDER-RIGHT: #005 4px double
+}
+.sample4 {
+	BORDER-RIGHT: #505 4px double
+}
+A.def {
+	BORDER-BOTTOM: blue 1px dashed; CURSOR: help; TEXT-DECORATION: none
+}
+.legal1 {
+	BORDER-BOTTOM-COLOR: #aaa; BORDER-TOP-COLOR: #aaa; BACKGROUND: #eee; BORDER-RIGHT-COLOR: #aaa; BORDER-LEFT-COLOR: #aaa
+}
+#navcol DIV.body {
+	BACKGROUND-IMAGE: none
+}
+#navcol DIV.body {
+	PADDING-BOTTOM: 0.3em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; MARGIN-RIGHT: 0px
+}
+#navcol DIV.body DIV {
+	PADDING-BOTTOM: 0px; MARGIN-TOP: 0.3em
+}
+.navgroup .body {
+	BORDER-TOP: #aaa 1px solid
+}
+.navgroup .body {
+	PADDING-BOTTOM: 0px; MARGIN: 0em; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.navgroup .label {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 4px
+}
+.tabset PRE {
+	BORDER-BOTTOM: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BACKGROUND-COLOR: #fff; PADDING-LEFT: 4px; BORDER-TOP: #ccc 1px solid; BORDER-RIGHT: #ccc 1px solid; PADDING-TOP: 4px
+}
+#collabnote {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#collabnote TABLE {
+	BORDER-BOTTOM: medium none; PADDING-BOTTOM: 0px; MARGIN: 0px 6px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+#collabnote TABLE TD {
+	PADDING-LEFT: 10px
+}
+.collabnoteimage {
+	BORDER-BOTTOM: #acac7b 2px solid; BORDER-LEFT: #acac7b 2px solid; PADDING-BOTTOM: 0px; MARGIN: -1px -2px -3px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #acac7b 2px solid; BORDER-RIGHT: #acac7b 2px solid; PADDING-TOP: 0px
+}
+#cnlogo {
+	BORDER-BOTTOM: medium none; WIDTH: 188px; DISPLAY: block; BACKGROUND: url(../images/product_logo.gif) no-repeat; HEIGHT: 14px; VERTICAL-ALIGN: top
+}
+#collabnet {
+	BORDER-BOTTOM: #996 1px solid; HEIGHT: 5px !important
+}
+DIV#collabnet {
+	PADDING-BOTTOM: 12px; BACKGROUND: #000; PADDING-TOP: 2px
+}
+* HTML .collabnoteimage {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+* HTML #toptabs {
+	PADDING-TOP: 20px
+}
+* HTML #banner #bannertable {
+	POSITION: relative; TOP: 10px
+}
+* HTML DIV#collabnet {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+*:first-child + HTML #banner {
+	PADDING-LEFT: 8px; PADDING-TOP: 5px
+}
+#ownermessage H2 {
+	COLOR: #000
+}

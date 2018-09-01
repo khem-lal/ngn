@@ -1,0 +1,336 @@
+.UserName {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #555; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.TextBoxMedium {
+	BORDER-RIGHT: Khaki 1px solid; PADDING: 2px; BORDER-TOP: Khaki 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: Khaki 1px solid; WIDTH: 160px; COLOR: #000; BORDER-BOTTOM: Khaki 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #fffef1
+}
+.TextBoxSmall {
+	BORDER-RIGHT: Khaki 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: Khaki 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: Khaki 1px solid; WIDTH: 70px; COLOR: #000; BORDER-BOTTOM: Khaki 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #fffef1
+}
+.TextBoxTiny {
+	BORDER-RIGHT: #1d99d5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #1d99d5 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #1d99d5 1px solid; WIDTH: 30px; COLOR: #000; BORDER-BOTTOM: #1d99d5 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #effaff
+}
+.TextBoxLarge {
+	BORDER-RIGHT: Khaki 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: Khaki 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: Khaki 1px solid; WIDTH: 250px; COLOR: #000; BORDER-BOTTOM: Khaki 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #fffef1
+}
+.ForgotPassword {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.ForgotPassword:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #ffffff; FONT-FAMILY: Arial; TEXT-DECORATION: underline
+}
+.FSCUser {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #555; FONT-FAMILY: Arial; TEXT-DECORATION: none
+}
+.Copyright {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #5e5e5e; FONT-FAMILY: Arial
+}
+.Text {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.FormText {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.FormTextBold {
+	PADDING-RIGHT: 3px; FONT-WEIGHT: bolder; FONT-SIZE: 11px; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.RptFormText {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.Validation {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ff0000; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.FormTextHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.FormTextSubHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.TextBoxEnabled {
+	BORDER-RIGHT: #1d99d5 1px solid; BORDER-TOP: #1d99d5 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #1d99d5 1px solid; COLOR: #555; BORDER-BOTTOM: #1d99d5 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #effaff
+}
+.TextBoxRight {
+	BORDER-RIGHT: #1d99d5 1px solid; BORDER-TOP: #1d99d5 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #1d99d5 1px solid; COLOR: #555; BORDER-BOTTOM: #1d99d5 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #effaff; TEXT-ALIGN: right
+}
+.TextBoxDisabled {
+	BORDER-RIGHT: Khaki 1px solid; BORDER-TOP: Khaki 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: Khaki 1px solid; COLOR: #555; BORDER-BOTTOM: Khaki 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: HoneyDew
+}
+.SmallTextBoxDisabled {
+	BORDER-RIGHT: Khaki 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: Khaki 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: Khaki 1px solid; WIDTH: 70px; COLOR: #555; BORDER-BOTTOM: Khaki 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: HoneyDew
+}
+.DropDown {
+	BORDER-RIGHT: Khaki 1px solid; BORDER-TOP: Khaki 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: Khaki 1px solid; COLOR: #555; BORDER-BOTTOM: Khaki 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #fffef1;margin-left:80px;
+}
+.Button2 {
+	BORDER-RIGHT: #1c3244 1px solid; BORDER-TOP: #1c3244 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 11px; BORDER-LEFT: #1c3244 1px solid; CURSOR: hand; COLOR: #ffffff; BORDER-BOTTOM: #1c3244 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 20px; BACKGROUND-COLOR: #166c8f;margin-left:140px;
+}
+
+.Link {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.Link:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline
+}
+.TableBorder {
+	BORDER-TOP: #b2b2b2 1px solid; BORDER-LEFT: #b2b2b2 1px solid
+}
+.ShadedRow {
+	BORDER-RIGHT: #b2b2b2 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #555; TEXT-INDENT: 5px; BORDER-BOTTOM: #b2b2b2 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: HoneyDew
+}
+.WhiteRow {
+	BORDER-RIGHT: #b2b2b2 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #555; TEXT-INDENT: 5px; BORDER-BOTTOM: #b2b2b2 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+.Header {
+	BORDER-RIGHT: #b2b2b2 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #555; TEXT-INDENT: 5px; BORDER-BOTTOM: #b2b2b2 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #e5e5e5
+}
+.TextBoxArea {
+	BORDER-RIGHT: Khaki 1px solid; BORDER-TOP: Khaki 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: Khaki 1px solid; COLOR: #555; BORDER-BOTTOM: Khaki 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: Ivory
+}
+.LinkButton {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; CURSOR: hand; COLOR: #1111ff; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.LinkButtonBlack {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; CURSOR: hand; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+TH.locked {
+	Z-INDEX: 99
+}
+.FormHeader {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; WIDTH: 100%; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.FormHeaderLeft {
+	FLOAT: left; WIDTH: 80%; TEXT-ALIGN: center
+}
+.FormHeaderRight {
+	FLOAT: right; WIDTH: 20%
+}
+.GridViewHeaderStyle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 0px; VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+.GridViewItemStyle {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; VERTICAL-ALIGN: top; TEXT-ALIGN: center
+}
+.GridViewItemStyle1 {
+	VERTICAL-ALIGN: top; PADDING-TOP: 5px; TEXT-ALIGN: left
+}
+.Message {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; FONT-FAMILY: Tahoma
+}
+.NumericTextBox1 {
+	BORDER-RIGHT: #1d99d5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #1d99d5 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #1d99d5 1px solid; WIDTH: 100px; COLOR: #555; BORDER-BOTTOM: #1d99d5 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #effaff; TEXT-ALIGN: right
+}
+.NumericTextBox2 {
+	BORDER-RIGHT: #1d99d5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #1d99d5 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #1d99d5 1px solid; WIDTH: 100px; COLOR: #555; BORDER-BOTTOM: #1d99d5 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: right
+}
+.RowTextBox1 {
+	BORDER-RIGHT: #1d99d5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #1d99d5 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #1d99d5 1px solid; WIDTH: 100px; COLOR: #555; BORDER-BOTTOM: #1d99d5 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #effaff; TEXT-ALIGN: left
+}
+.RowTextBox2 {
+	BORDER-RIGHT: #1d99d5 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #1d99d5 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #1d99d5 1px solid; WIDTH: 100px; COLOR: #555; BORDER-BOTTOM: #1d99d5 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: left
+}
+.DatePicker {
+	BORDER-RIGHT: #1d99d5 1px solid; BORDER-TOP: #1d99d5 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #1d99d5 1px solid; COLOR: #555; BORDER-BOTTOM: #1d99d5 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #effaff; TEXT-ALIGN: right
+}
+.GridViewButton {
+	BORDER-RIGHT: #9b3d00 1px solid; BORDER-TOP: #9b3d00 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: #9b3d00 1px solid; WIDTH: 60px; COLOR: #ffffff; BORDER-BOTTOM: #9b3d00 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 20px; BACKGROUND-COLOR: #1c9ad5
+}
+.ContentPageDiv {
+	TEXT-ALIGN: center
+}
+.tdText {
+	FONT-FAMILY: Arial, Helvetica; HEIGHT: 28px; TEXT-ALIGN: right
+}
+.tdControl {
+	FONT-FAMILY: Arial, Helvetica; HEIGHT: 28px; TEXT-ALIGN: left
+}
+.tdLargeText {
+	FONT-FAMILY: Arial, Helvetica; HEIGHT: 35px; TEXT-ALIGN: right
+}
+.tdLargeControl {
+	FONT-FAMILY: Arial, Helvetica; HEIGHT: 35px; TEXT-ALIGN: left
+}
+.tdSmallText {
+	FONT-FAMILY: Arial, Helvetica; HEIGHT: 18px; TEXT-ALIGN: left
+}
+.tdSmallControl {
+	FONT-FAMILY: Arial, Helvetica; HEIGHT: 18px; TEXT-ALIGN: right
+}
+.tdTextBold {
+	FONT-WEIGHT: bold; FONT-FAMILY: Arial, Helvetica; HEIGHT: 28px; TEXT-ALIGN: left
+}
+.Table {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; PADDING-BOTTOM: 10px; BORDER-LEFT: silver 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: silver 1px solid
+}
+.Legend {
+	FONT-WEIGHT: bold
+}
+.FieldSet {
+	
+}
+.Caption {
+	BORDER-RIGHT: silver 1px; BORDER-TOP: silver 1px; FONT-WEIGHT: bold; FONT-SIZE: 13px; MARGIN: 0px 5px 5px 4px; BORDER-LEFT: silver 1px; COLOR: #555; BORDER-BOTTOM: silver 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #bbddf8; TEXT-ALIGN: center;
+}
+.Tab {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: silver 1px solid; CURSOR: hand; COLOR: #ffffff; BORDER-BOTTOM: silver 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f16000; TEXT-DECORATION: none
+}
+.Tab:hover {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BORDER-LEFT: silver 1px solid; CURSOR: hand; COLOR: #1111ff; BORDER-BOTTOM: silver 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #effaff; TEXT-DECORATION: underline
+}
+.ActiveTab {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; BORDER-LEFT: silver 1px solid; CURSOR: hand; COLOR: #555; BORDER-BOTTOM: silver 1px; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: HoneyDew; TEXT-DECORATION: none
+}
+.tdTextLeft {
+	FONT-FAMILY: Arial, Helvetica; HEIGHT: 25px; TEXT-ALIGN: left
+}
+.tdControlLeft {
+	FONT-FAMILY: Arial, Helvetica; TEXT-ALIGN: left
+}
+.tdPageSubtitle {
+	BORDER-RIGHT: silver 1px; BORDER-TOP: silver 1px; FONT-WEIGHT: bold; FONT-SIZE: 16px; MARGIN: 0px 5px 5px 4px; BORDER-LEFT: silver 1px; COLOR: #555; BORDER-BOTTOM: silver 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; BACKGROUND-COLOR: HoneyDew ; TEXT-ALIGN: center
+}
+.FormBorder {
+	BORDER-RIGHT: silver 1px solid; BORDER-TOP: silver 1px solid; BORDER-LEFT: silver 1px solid; BORDER-BOTTOM: silver 1px solid
+}
+.FormTextBoldBlue {
+	PADDING-RIGHT: 3px; FONT-WEIGHT: bolder; FONT-SIZE: 11px; COLOR: blue; FONT-FAMILY: Arial, Helvetica, sans-serif
+}.c
+.MediumTextBoxDisabled {
+	BORDER-RIGHT: silver 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: silver 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BORDER-LEFT: silver 1px solid; WIDTH: 160px; COLOR: #555; BORDER-BOTTOM: silver 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; HEIGHT: 15px; BACKGROUND-COLOR: #effaff
+}
+.MandatoryText {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #555; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.whiteLink{
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.whiteLink:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+.box_header3{
+	height:auto;
+	font:normal 14px/18px Arial, Helvetica, sans-serif;
+	color:#000;	
+	padding-left:0px;
+	margin:0 0 0px 0px;
+	border-bottom:1px dashed #ccc;
+	text-align:center;
+	}
+.adjust3{
+	padding:0;
+	margin:0;
+	line-height:20px;
+	float:left;
+	width:400px;
+	padding: 0 0 0 150px;
+	}
+.adjust300{
+	padding:0;
+	margin:0;
+	line-height:20px;
+	float:left;
+	width:400px;
+	padding: 0 0 0 50px;
+	}
+
+.adjust_voc_pay{
+	padding:0;
+	margin:0;
+	line-height:20px;
+	float:left;
+	width:630px;
+	}
+	
+.search_container3{
+	width:400px;
+	height:auto;
+	margin:0;
+	padding:0;
+	text-align:left;
+	}
+.box_divider3{
+	width:216px;
+	height:3px;
+	background:url(../images/box_divider.jpg) no-repeat center;
+	padding:12px 0;
+	margin:0;
+	float:left;
+	}
+.documents_btn3{
+	width:200px;
+	height:auto;
+	font:normal 11px/12px Arial, Helvetica, sans-serif;
+	padding:5px 0;
+	text-align:left;
+	}	
+	
+.documents_btn3 a{
+	background:url(../images/bullet.jpg) no-repeat;
+	font:normal 11px/12px Arial, Helvetica, sans-serif;
+	color:#333;
+	padding:0 15px;
+	}	
+	
+.documents_btn3 a:hover{
+	background:url(../images/bullet.jpg) no-repeat;
+	font:normal 11px/12px Arial, Helvetica, sans-serif;
+	color:#729b10;
+	padding:0 15px;
+	}
+	
+#right_container3{
+	width:216px;
+	height:auto;
+	margin:0 0 0 0px;
+	padding:0 0px 0 0;
+	padding-left:10px;
+	float:right;
+	}
+	
+    .clear1
+    { 
+    clear:both;
+     } 
+     
+     #left_container_login_portlet 
+     {  PADDING-BOTTOM: 0px; 
+     MARGIN: 0px; 
+     PADDING-LEFT: 8px; 
+     WIDTH: 686px; 
+     PADDING-RIGHT: 0px; 
+     FLOAT: left; 
+     HEIGHT: auto; 
+     COLOR: #525252; PADDING-TOP: 0px 
+     }
+     
+      .box_bg_login_portlet {  
+      TEXT-ALIGN: justify; 
+      PADDING-BOTTOM: 10px; 
+      LINE-HEIGHT: 19px;
+       PADDING-LEFT: 20px; 
+       PADDING-RIGHT: 20px; 
+       BACKGROUND: url(../images/box_bg.jpg) repeat-y center 50%;
+       COLOR: #525252; FONT-SIZE: 13px; PADDING-TOP: 10px 
+       }
+       
+      .big_heading_login_portlet
+        {  PADDING-BOTTOM: 0px; LINE-HEIGHT: 
+         34px; PADDING-LEFT: 20px; 
+         WIDTH: 688px; 
+         PADDING-RIGHT: 0px; 
+         BACKGROUND: url(../images/big_heading.jpg) no-repeat center 50%; 
+         FONT-SIZE: 14px;
+         PADDING-TOP: 0px 
+         } 
+          
+     .adjust_login_portlet { 
+      PADDING-BOTTOM: 0px; 
+     LINE-HEIGHT: 17px; 
+     MARGIN: 0px; 
+     PADDING-LEFT: 0px; 
+     PADDING-RIGHT: 0px; 
+     PADDING-TOP: 0px
+      }

@@ -1,0 +1,60 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+H2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+OL#root {
+	LIST-STYLE-TYPE: none; MARGIN-TOP: 2px; PADDING-LEFT: 5px;margin-left:30px; MARGIN-BOTTOM: 1px; LIST-STYLE-IMAGE: none
+}
+#root OL {
+	LIST-STYLE-TYPE: none; MARGIN-TOP: 2px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 1px; LIST-STYLE-IMAGE: none
+}
+#root LI {
+	MARGIN-TOP: 2px; PADDING-LEFT: 5px; MARGIN-BOTTOM: 1px; FONT-SIZE: x-small
+}
+.panel {
+	 MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px; BACKGROUND: #fff
+}
+#root UL {
+	LIST-STYLE-POSITION: inside; MARGIN-TOP: 2px; MARGIN-BOTTOM: 1px
+}
+#root A {
+	color:#000
+	TEXT-DECORATION: none
+}
+.folder {
+	WIDTH: 26px; PADDING-RIGHT: 3px; BACKGROUND: url(/branding/images/sstree/folder-closed.gif) no-repeat; FLOAT: left; HEIGHT: 14px
+}
+.doc {
+	WIDTH: 12px; PADDING-RIGHT: 3px; BACKGROUND: url(/branding/images/sstree/file.gif) no-repeat; FLOAT: left; HEIGHT: 14px; MARGIN-LEFT: 20px
+}
+.top_link_btn{
+	width:auto;
+	height:auto;
+	font:normal 11px/16px Arial, Helvetica, sans-serif;
+	color:#999;
+	float:left;
+	}	
+	
+.top_link_btn a{
+	width:auto;
+	height:auto;
+	font:normal 11px/16px Arial, Helvetica, sans-serif;
+	color:#999;
+	float:left;
+	}	
+	
+.top_link_btn a:hover{
+	width:auto;
+	height:auto;
+	font:normal 11px/16px Arial, Helvetica, sans-serif;
+	color:#cf5800;
+	float:left;
+	}
